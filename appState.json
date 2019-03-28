@@ -1,21 +1,21 @@
 {
   "EDITOR_STATE": {
     "allProjectFiles": {
-      "4c44f59d-f2dc-4346-8a07-1e30db33c90b": {
-        "id": "4c44f59d-f2dc-4346-8a07-1e30db33c90b",
+      "018a372e-ad80-41de-b58e-cedab6311aa5": {
+        "id": "018a372e-ad80-41de-b58e-cedab6311aa5",
         "parent": null,
         "name": "wdw",
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "8b5083e1-cd97-44a5-94a9-f6643c3c6ace"
+          "e53c8d1c-af69-4553-9518-792fe11df2f8"
         ],
         "isRemovable": false,
         "filePath": "wdw"
       },
-      "8b5083e1-cd97-44a5-94a9-f6643c3c6ace": {
-        "id": "8b5083e1-cd97-44a5-94a9-f6643c3c6ace",
-        "parent": "4c44f59d-f2dc-4346-8a07-1e30db33c90b",
+      "e53c8d1c-af69-4553-9518-792fe11df2f8": {
+        "id": "e53c8d1c-af69-4553-9518-792fe11df2f8",
+        "parent": "018a372e-ad80-41de-b58e-cedab6311aa5",
         "name": "lambda.js",
         "type": "LAMBDA_FILE",
         "isDirectory": false,
@@ -26,6 +26,7 @@
         "triggers": [],
         "config": {
           "runtime": "nodejs8.10",
+          "handler": "handler",
           "timeout": 60,
           "memory": 128,
           "layers": []
@@ -33,12 +34,16 @@
       }
     },
     "deletedFiles": [],
-    "rootNode": "4c44f59d-f2dc-4346-8a07-1e30db33c90b",
+    "rootNode": "018a372e-ad80-41de-b58e-cedab6311aa5",
     "openFiles": [
-      "8b5083e1-cd97-44a5-94a9-f6643c3c6ace"
+      "e53c8d1c-af69-4553-9518-792fe11df2f8"
     ],
-    "currentFileId": "8b5083e1-cd97-44a5-94a9-f6643c3c6ace",
+    "currentFileId": "e53c8d1c-af69-4553-9518-792fe11df2f8",
     "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
     "envVariables": [
       {
         "lambdaId": "all",
@@ -60,7 +65,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1547789830305
+    "lastSave": 1553765234843
   },
   "VCS_STATE": {
     "provider": "GitHub",
